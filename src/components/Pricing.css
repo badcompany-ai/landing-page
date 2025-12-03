@@ -1,0 +1,127 @@
+.pricing {
+  padding: 80px 24px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.pricing-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.pricing-tagline {
+  font-size: 18px;
+  color: var(--text-secondary);
+  margin-bottom: 40px;
+}
+
+.pricing-card {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 40px 32px;
+  text-align: center;
+}
+
+.pricing-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(16, 185, 129, 0.1);
+  color: #10b981;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.pricing-amount {
+  margin-bottom: 16px;
+}
+
+.price {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.period {
+  font-size: 18px;
+  color: var(--text-muted);
+}
+
+.pricing-description {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+  text-align: left;
+}
+
+.pricing-features li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.pricing-features li:last-child {
+  border-bottom: none;
+}
+
+.pricing-features li::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #10b981;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.pricing-cta {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 24px;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.pricing-cta:hover {
+  background: #e4e4e7;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+  .pricing {
+    padding: 60px 16px;
+  }
+
+  .pricing-content h2 {
+    font-size: 28px;
+  }
+
+  .pricing-card {
+    padding: 32px 24px;
+  }
+
+  .price {
+    font-size: 48px;
+  }
+}

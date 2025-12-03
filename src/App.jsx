@@ -1,6 +1,7 @@
 import Sidebar from './components/Sidebar'
 import Hero from './components/Hero'
 import BlankSpace from './components/BlankSpace'
+import Pricing from './components/Pricing'
 import Support from './components/Support'
 import './App.css'
 
@@ -26,6 +27,7 @@ function App() {
         <main>
           <Hero />
           <BlankSpace />
+          <Pricing />
           <Support />
         </main>
       </div>
