@@ -25,8 +25,10 @@ const BlankSpace = () => {
   return (
     <section className="blankspace" id="blankspace">
       <div className="blankspace-content">
-        <div className="blankspace-badge">Open Source</div>
-        <h2>Blank Space</h2>
+        <div className="blankspace-title-row">
+          <h2>Blank Space</h2>
+          <div className="blankspace-badge">Open Source</div>
+        </div>
         <p className="blankspace-tagline">
           Build AI apps in minutes, not months. The open-source alternative to v0, Lovable, and Bolt.
         </p>

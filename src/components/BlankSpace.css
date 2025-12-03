@@ -9,6 +9,14 @@
   text-align: center;
 }
 
+.blankspace-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
 .blankspace-badge {
   display: inline-block;
   padding: 6px 14px;
@@ -17,13 +25,12 @@
   border-radius: 100px;
   font-size: 13px;
   font-weight: 500;
-  margin-bottom: 16px;
 }
 
 .blankspace-content h2 {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin: 0;
   color: var(--text-primary);
 }
 
