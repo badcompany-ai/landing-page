@@ -1,0 +1,78 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.top-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.search-btn:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border: none;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.login-btn:hover {
+  background: #e4e4e7;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+
+  .top-bar {
+    padding: 12px 16px;
+  }
+}
